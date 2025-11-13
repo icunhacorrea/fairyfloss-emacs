@@ -105,8 +105,8 @@
    `(header-line ((t (:background "#4A4363" :foreground "#CAA9FA" :box nil))))
    `(mode-line ((,class (:background "#4A4363" :foreground ,purple :box nil))))
    `(mode-line-inactive ((,class (:background ,bg :foreground ,comment :box nil))))
-   `(vertical-border ((,class (:foreground ,comment))))
-   `(horizontal-border ((,class (:foreground ,comment))))
+   `(vertical-border ((,class (:foreground "#4A4363"))))
+   `(horizontal-border ((,class (:foreground "#4A4363"))))
    `(show-paren-match ((,class (:background ,pink :foreground ,bg :weight bold))))
    `(isearch ((,class (:background ,yellow :foreground ,bg :weight bold))))
    `(lazy-highlight ((,class (:background ,blue :foreground ,bg :weight bold))))
@@ -117,12 +117,6 @@
    `(diff-hl-insert ((,class (:background "#a8e6a1" :foreground "#a8e6a1"))))
    `(diff-hl-delete ((,class (:background "#f8b7b3" :foreground "#f8b7b3"))))
    `(diff-hl-change ((,class (:background "#fff59d" :foreground "#fff59d"))))
-
-   ;; Diff Mode
-   ;; `(diff-added ((,class (:background "#6A7165" :foreground ,fg))))
-   ;; `(diff-removed ((,class (:background "#71656A" :foreground ,fg))))
-   ;; `(diff-changed ((,class (:background "#717165" :foreground ,fg))))
-   ;; `(diff-hunk-header ((,class (:background "#6C6783" :foreground ,fg))))
 
    ;; Corfu
    `(corfu-default ((,class (:background "#6C6783" :foreground ,fg))))
@@ -143,6 +137,11 @@
    `(magit-item-highlight ((,class (:background "#6C6783" :extend t))))
    `(magit-section-highlight ((,class (:background "#6C6783" :extend t))))
    `(magit-diff-context ((,class (:foreground ,fg :background ,bg))))
+
+   ;; Windows
+   `(window-divider ((,class (:foreground "#4A4363"))))
+   `(window-divider-first-pixel ((,class (:foreground "#4A4363"))))
+   `(window-divider-last-pixel ((,class (:foreground "#4A4363"))))
    
    ;; Completions
    `(completions-common-part ((,class (:foreground ,yellow))))
