@@ -6,9 +6,9 @@ A port of the beautiful **Fairyfloss theme** originally created by **SailorHG**.
 
 ## 🎨 Screenshots
 
-| Code Buffer (Python) | Magit Status |
-| :---: | :---: |
-| <img src="screenshots/python_code.png" alt="Exemplo de sintaxe Python com o tema Fairyfloss" width="400"/> | [Screenshot do Magit] |
+| Code (Python) |
+| :---: |
+| ![Screenshot](./screenshots/fairyfloss-theme.png) |
 
 ---
 
