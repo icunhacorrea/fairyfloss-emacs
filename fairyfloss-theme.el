@@ -35,7 +35,7 @@
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ;; Then, use `M-x load-theme` and select "fairyfloss".
 
-;; Code
+;;; Code:
 
 (deftheme fairyfloss
   "A dreamy, pastel-colored dark theme inspired by Fairyfloss for Sublime Text.")
