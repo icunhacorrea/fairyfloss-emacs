@@ -4,15 +4,6 @@ A port of the beautiful **Fairyfloss theme** originally created by **SailorHG**.
 
 ---
 
-## 🔗 About & Reference
-
-This theme is directly inspired by and ported from the original work:
-
-* **Original Creator:** SailorHG
-* **Source Repository:** [https://github.com/sailorhg/fairyfloss](https://github.com/sailorhg/fairyfloss)
-
----
-
 ## 🎨 Screenshots
 
 In soon
@@ -44,3 +35,12 @@ If the theme is published on MELPA, you can install it using the following comma
 
 ```elisp
 M-x package-install [RET] fairyfloss-theme [RET]
+
+---
+
+## 🔗 About & Reference
+
+This theme is directly inspired by and ported from the original work:
+
+* **Original Creator:** SailorHG
+* **Source Repository:** [https://github.com/sailorhg/fairyfloss](https://github.com/sailorhg/fairyfloss)
