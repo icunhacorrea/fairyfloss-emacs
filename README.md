@@ -29,15 +29,6 @@ A port of the beautiful **Fairyfloss theme** originally created by **SailorHG**.
     (load-theme 'fairyfloss t)
     ```
 
-### Via Package (If you plan to submit to MELPA)
-
-**(Remove this section if you do not plan on publishing to MELPA)**
-
-If the theme is published on MELPA, you can install it using the following command:
-
-```elisp
-M-x package-install [RET] fairyfloss-theme [RET]
-
 ---
 
 ## 🔗 About & Reference
