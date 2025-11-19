@@ -1,4 +1,4 @@
-;;; fairyfloss-theme.el --- A dreamy, pastel-colored dark theme inspired by Fairyfloss for Sublime Text
+;;; fairyfloss-theme.el --- A dreamy, pastel-colored dark theme inspired by Fairyfloss for Sublime Text  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025 Iago Corrêa
 
@@ -6,7 +6,7 @@
 ;; Maintainer: Iago Corrêa/icunhacorrea <iago.cunhac@gmail.com>
 ;; Created: 2025-11-12
 ;; Keywords: faces, color-theme, dark, pastel, light-colors
-;; Compatibility: 25.1
+;; Compatibility: 31.0
 ;; Version: 1.0.0
 
 ;; Reference: https://github.com/sailorhg/fairyfloss
@@ -50,14 +50,10 @@
       (string    "#FFEA00")
       (number    "#C5A3FF")
       (keyword   "#FFB8D1")
-      (storage   "#FFB8D1")
       (type      "#C2FFDF")
-      (class-name "#FFF352")
       (func      "#FFF352")
-      (arg       "#FF857F")
       (invalid   "#F92672")
-      (border    "#4A4363")
-      (guide     "#A8757B"))
+      (border    "#4A4363"))
 
    (custom-theme-set-faces
     'fairyfloss
@@ -123,4 +119,4 @@
 
 (provide-theme 'fairyfloss)
 
-;;; FairyFloss theme ends here
+;;; fairyfloss-theme.el ends here
