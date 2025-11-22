@@ -84,7 +84,8 @@
     ;; Extra
     `(mode-line ((,class (:background ,border :foreground ,type :box nil))))
     `(mode-line-inactive ((,class (:background ,bg :foreground ,selection :box (:line-width -1 :color ,border)))))
-    `(header-line ((,class (:background ,bg :foreground ,comment))))
+    `(header-line ((,class (:background ,border :foreground ,comment nil))))
+    `(header-line-inactive ((,class (:background ,bg :foreground ,comment :box (:line-width -1 :color ,border)))))
     `(minibuffer-prompt ((,class (:foreground ,keyword :weight bold))))
     `(show-paren-match ((,class (:background ,keyword :foreground ,bg :weight bold))))
     `(show-paren-mismatch ((,class (:background ,invalid :foreground ,fg))))
